@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.car {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.block {
+    width: 300px;
+    height: 370px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+}
+
+.image {
+    width: 300px;
+    height: 150px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.camry {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    height: 30px;
+    margin: 10px 0 0 5px;
+}
+
+.price {
+    font-weight: bold;
+    margin-right: 8px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.loan {
+    background-color: orange;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.model {
+    margin-top: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 5px;
+}
+
+.description {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.location {
+    color: gray;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end .end__start {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+}
+
+.end .end__end {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    color: gray;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.views {
+    color: gray;
+}

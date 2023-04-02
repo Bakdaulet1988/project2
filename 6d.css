@@ -1,0 +1,40 @@
+.box4 {
+    width: 400px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.cities {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.city1 {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+
+}
+
+.city2 {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    align-items: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.city3 {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}

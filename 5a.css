@@ -1,0 +1,48 @@
+
+.square {
+    display: flex;
+    width: 500px;
+    height: 117.5px;
+}
+
+.city {
+    flex: 1;
+}
+
+.Almaty1 {
+    border: 1px solid aquamarine;
+    font-weight: bold;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Almaty2 {
+    border: 1px solid aquamarine;
+    font-weight: bold;
+    background-color: aquamarine;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Almaty3 {
+    border: 1px solid aquamarine;
+    font-weight: bold;
+    background-color: aquamarine;
+    margin-right: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Almaty4 {
+    border: 1px solid aquamarine;
+    font-weight: bold;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}

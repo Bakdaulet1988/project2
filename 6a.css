@@ -1,0 +1,16 @@
+.box {
+    border: 1px solid;
+    border: none;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+
+.city {
+    font-weight: bold;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
